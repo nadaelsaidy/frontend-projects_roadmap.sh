@@ -1,0 +1,96 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  img{
+        width: 64px;
+  }
+  header h1{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+  }
+  
+  nav ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px;
+  }
+  div.work , footer.footer{
+    font-style: italic;
+    text-align: center;
+    margin: 7%;
+  }
+
+  div.work p{
+    font-style: normal;
+  }
+  div.about ,aside.reviews {
+      display: grid;
+      grid-template-columns: repeat(3,33.3%);
+      column-count: 3;
+      padding: 20px;
+  }
+
+  section.projects h4 , section.experience h4 , section.education h4{
+     text-align: center;
+    
+  }
+  section.projects ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+  }
+  div.courses ol{
+    list-style-type:disc;
+  }
+
+
+  .experience-roadmap :nth-child(2), .experience-opensource :nth-child(2) {
+        padding-left: 5px;
+  }
+  
+   blockquote{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20%;
+   }
+
+   section {
+    padding: 20px;
+   }
+
+
+   /*artical page*/
+   main.aritcals{
+     margin-top: 10%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+
+   }
+   section.artical-1 , section.artical-2, section.artical-3{
+    width: 25%;
+    background-color: rgb(199, 195, 195);
+    border: black solid 3px;
+    border-radius: 20%;
+        
+   }
+
+   /*  Contact page*/
+
+   main.contact-page{
+    width: 25vh;
+    margin: auto;
+
+   }
+
+   form{
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+   }
+  
