@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![Personal Portfolio](./screenshot.png)
+![Personal Portfolio](./Screenshot.png)
 
 ## Goal
 
