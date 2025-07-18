@@ -1,0 +1,77 @@
+ *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    padding:1.2rem ;
+    color: rgb(176, 168, 168);
+}
+
+.section{
+    border-left: 3px solid black;
+    position: relative;
+    left: 70px;
+    padding: 1.4rem;
+    min-width: 8rem;
+}
+
+.section .date{
+    color: rgb(176, 168, 168);
+    position: absolute;
+    left: -140px;
+}
+
+
+@media (max-width: 500px){
+    .section .date{
+      top :0px;
+      left: 28px;
+    }
+    .section{
+        position: relative;
+        left: 0;
+    }
+}
+.section .content::before{
+    content: "@";
+    font-size: 12px;
+    color: black;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: -29px;
+}
+
+button{
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background-color:black ;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color:white;
+    padding: 6px;
+}
+
+
